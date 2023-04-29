@@ -85,7 +85,7 @@ placeholder = st.empty()
 @st.cache_data(experimental_allow_widgets=True)
 def g():
     
-    input_data = placeholder.text_area( label='',placeholder='inserer clients isi',key = '3')
+    input_data = placeholder.text_area( label='',placeholder='inserer vos clients ',key = '3')
     return input_data
 h=g()
 a=h.split("\n")
