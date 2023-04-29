@@ -1,7 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
 from st_aggrid import AgGrid
-import pyautogui
 import pandas as pd
 import time
 @st.cache_data
