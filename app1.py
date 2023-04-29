@@ -61,7 +61,7 @@ def affiche_clients(a,df):
 
 
 
-st.set_page_config(page_title='Saisie Rapide', page_icon=st.image("a.jpg"), layout="centered")
+st.set_page_config(page_title='Saisie Rapide')
 col1, col2, col3 = st.columns(3)
 
 with col1:
