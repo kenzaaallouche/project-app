@@ -2,6 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from st_aggrid import AgGrid
 import pandas as pd
+from PIL import Image
 import time
 @st.cache_data
 def data ():
@@ -60,7 +61,7 @@ def affiche_clients(a,df):
         st.dataframe(df)
 
 
-img=st.image("a.jpg")
+img=Image.open("a.jpg")
 st.set_page_config(page_title='Saisie Rapide', page_icon=img, layout='centered', initial_sidebar_state='auto')
 col1, col2, col3 = st.columns(3)
 
