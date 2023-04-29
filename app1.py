@@ -60,8 +60,8 @@ def affiche_clients(a,df):
         st.dataframe(df)
 
 
-
-st.set_page_config(page_title='Saisie Rapide', page_icon=get_image("a.jpg"), layout='centered', initial_sidebar_state='auto')
+img=st.image("a.jpg")
+st.set_page_config(page_title='Saisie Rapide', page_icon=img, layout='centered', initial_sidebar_state='auto')
 col1, col2, col3 = st.columns(3)
 
 with col1:
