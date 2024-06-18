@@ -66,7 +66,7 @@ if extra_submit_button:
             
             df3=df2[['NOM', 'WILAYA','COMMUNE','NUMERO','PRODUIT','QUANTITE','TOTAL']].copy()
         
-            AgGrid(df3, columns_auto_size_mode=1,editable=True)
+            AgGrid(df3)
         
     else:
         st.info('List commandes vide', icon="ℹ️")
